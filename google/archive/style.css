@@ -1,0 +1,134 @@
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+ul{
+	list-style-type:none;
+}
+
+#header {
+	background-color:black;
+	margin:0;
+	padding:0;
+}
+
+#header ul{
+	padding:10px 0px 10px 25px;
+	margin:0;
+}
+
+#header li{
+	padding:0px;
+	margin:0px;
+	display:inline;
+	margin:15px
+}
+
+#header li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#999;
+	text-decoration:none;
+}
+
+#header li a:hover {
+	color:white;
+}
+
+#content {
+	overflow:auto;
+	padding-bottom: 350px;
+}
+
+#content img {
+	width:275px;
+	height:95px;
+}
+
+#usernav {
+	position:relative;
+	text-align:right;
+}
+
+#usernav ul{
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	top:0;
+	right:0;	
+	margin-top:15px;
+}
+
+#usernav li{
+	padding:0px;
+	margin:0px;
+	display:inline;
+	margin:15px
+}
+
+#usernav li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:black;
+	text-decoration:none;
+}
+
+#search {
+	text-align:center;
+	margin-top:150px;
+}
+
+input.textbox {
+	margin:25px 0;
+	width:550px;
+	height:25px;
+}
+
+input.button {
+	border-radius:3px;
+	padding:5px;
+	border: 1px solid gray;
+}
+
+#footer {
+	border-top:1px solid gray;
+	position: relative;
+	margin-top: -25px; /* negative value of footer height */
+	height: 25px;
+	clear:both;
+}
+
+#bottomnav {
+	text-align:right;
+}
+
+#bottomnav ul{
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	top:0;
+	right:0;
+	margin-top:15px;
+}
+
+#bottomnav li{
+	padding:0px;
+	margin:0px;
+	display:inline;
+	margin:15px
+}
+
+#bottomnav li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:gray;
+	text-decoration:none;
+}
+
+#bottomnav li a {
+	text-decoration:underline;
+}
